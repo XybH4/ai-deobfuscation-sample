@@ -1,0 +1,342 @@
+INDEX  game -> IsLoaded
+CALL   game:IsLoaded()
+INDEX  game -> GetService
+CALL   game:GetService(Players)
+INDEX  game.Players -> LocalPlayer
+INDEX  game.Players.LocalPlayer -> WaitForChild
+CALL   game.Players.LocalPlayer:WaitForChild(PlayerGui)
+INDEX  game.Players.LocalPlayer.PlayerGui -> FindFirstChild
+CALL   game.Players.LocalPlayer.PlayerGui:FindFirstChild(Main Menu)
+INDEX  game -> GetService
+CALL   game:GetService(ReplicatedStorage)
+INDEX  game.ReplicatedStorage -> requests
+INDEX  game.ReplicatedStorage.requests -> character
+INDEX  game.ReplicatedStorage.requests.character -> spawn
+INDEX  game.ReplicatedStorage.requests.character.spawn -> FireServer
+CALL   game.ReplicatedStorage.requests.character.spawn.FireServer({__proxy_name="game.ReplicatedStorage.requests.character.spawn"})
+INDEX  game.Players.LocalPlayer.PlayerGui.Main Menu -> Destroy
+UI     game.Players.LocalPlayer.PlayerGui.Main Menu:Destroy()
+INDEX  game -> HttpGet
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/Library.lua)
+LOADSTRING url-chunk len=105
+EXEC loadstring-chunk
+INDEX  game -> HttpGet
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/addons/ThemeManager.lua)
+LOADSTRING url-chunk len=117
+EXEC loadstring-chunk
+INDEX  game -> HttpGet
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/addons/SaveManager.lua)
+LOADSTRING url-chunk len=116
+EXEC loadstring-chunk
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> CreateWindow
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow({Title=" Nameless", Footer="Bizzare Lineage -- V1.7", NotifySide="Right", Icon=6031068423, ShowCustomCursor=false})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow -> AddTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab("Main", "user")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow -> AddTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab("Auto Farm", "shopping-cart")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow -> AddTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab("Raid Farm", "target")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow -> AddTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab("Teleport/Misc", "map")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow -> AddTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab("Settings", "settings")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Movement")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Combat")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Lock-On")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Item Farm")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Meditation")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Workouts")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("PvP Mission Farm")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Raid Boss Selection")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Raid Boss Farm Settings")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("World TP")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Shops")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Character Info")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddRightGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox("Stand Info")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Menu")
+INDEX  game -> GetService
+CALL   game:GetService(Players)
+INDEX  game.Players -> LocalPlayer
+INDEX  game -> GetService
+CALL   game:GetService(Players)
+INDEX  game -> GetService
+CALL   game:GetService(RunService)
+INDEX  game -> GetService
+CALL   game:GetService(UserInputService)
+INDEX  game -> GetService
+CALL   game:GetService(VirtualInputManager)
+INDEX  game -> GetService
+CALL   game:GetService(ReplicatedStorage)
+INDEX  game -> GetService
+CALL   game:GetService(TeleportService)
+INDEX  game -> GetService
+CALL   game:GetService(HttpService)
+INDEX  workspace -> CurrentCamera
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> Unloaded
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddSlider("WS_Slider", {Min=16, Default=16, Max=250, Text="WalkSpeed", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddSlider("JP_Slider", {Min=50, Default=50, Max=500, Text="JumpPower", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("Noclip_Tog", {Text="Noclip", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle -> AddKeyPicker
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle:AddKeyPicker("NoclipBind", {Text="Noclip", SyncToggleState=true, Default="V", Mode="Toggle"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("Fly_Tog", {Text="Flight", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle -> AddKeyPicker
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle:AddKeyPicker("FlyBind", {Text="Flight", SyncToggleState=true, Default="Y", Mode="Toggle"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddSlider("Fly_Speed", {Min=0.1, Default=1, Max=10, Text="Flight Speed", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("InfJump_Tog", {Text="Infinite Jump", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("AttachNPCTog", {Text="Attach to Nearest Entity", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("AttachNPCPos_Drop", {Callback=<fn>, Text="Attach Position", Default=1, Values={1="Back", 2="Below", 3="Behind"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddSlider("AttachNPCDist_Slider", {Min=0, Default=5, Max=15, Text="Attach Distance", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("LockOnTog", {Text="Enable Lock-On", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle -> AddKeyPicker
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle:AddKeyPicker("LockOnBind", {Text="Lock-On", SyncToggleState=true, Default="J", Mode="Toggle"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("[Lockon]: M2 to lockon/lockoff")
+INDEX  game.UserInputService -> InputBegan
+INDEX  game.UserInputService.InputBegan -> Connect
+CALL   game.UserInputService.InputBegan:Connect({__proxy_name="game.UserInputService.InputBegan"}, <fn>)
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("FarmTog", {Text="Auto Farm Items", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("FarmServerHopTog", {Text="Server Hop When Empty", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="Manual Server Hop"})
+TASK_WAIT_LIMIT reached, aborting game loop
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("BossSelect_Drop", {Callback=<fn>, Text="Select Boss", Default=1, Values={1="Jotaro", 2="Kira", 3="Avdol", 4="DIO"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("BossFarmTog", {Text="Enable Boss Farm", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle -> OnChanged
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle:OnChanged(<fn>)
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("BossAutoRetryTog", {Text="Auto Retry Raid", Default=true, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Jotaro: Auto raids & farms boss")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Kira: Farms NPCs then Kira BTD")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("BossAttackPos_Drop", {Callback=<fn>, Text="Attack Position", Default=1, Values={1="Back", 2="Below", 3="Behind"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddSlider("BossAttackDist_Slider", {Min=0, Default=9, Max=15, Text="Attack Distance", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Position Options:")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Back = Behind boss (Z+)")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Below = Under boss (Y-)")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Behind = In front (Z-)")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("AutoStandSummonTog", {Text="Auto Stand Summon", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("AutoSkillsTog", {Text="Auto Use Skills", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("SkillSelect_Drop", {Values={1="E", 2="R", 3="Z", 4="X", 5="C", 6="V"}, Text="Select Skills", Multi=true, Callback=<fn>, Default=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddSlider("SkillDelay_Slider", {Min=0.1, Default=0.5, Max=3, Text="Skill Delay (seconds)", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("PvPRole_Drop", {Callback=<fn>, Text="Role", Default=1, Values={1="Main", 2="Alt"}})
+INDEX  game.Players -> GetPlayers
+CALL   game.Players:GetPlayers()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("PvPMainPlayer_Drop", {Callback=<fn>, Text="Select Main Player (Alt)", Default=1, Values={}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddButton({Func=<fn>, Text="Refresh Player List"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("PvPAttackPos_Drop", {Callback=<fn>, Text="Alt Attach Position", Default=1, Values={1="Back", 2="Below"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddSlider("PvPAttackDist_Slider", {Min=0, Default=5, Max=15, Text="Alt Attach Distance", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("PvPFarmTog", {Text="Enable PvP Farm [Priv Serv Only]", Default=false, Callback=<fn>})
+INDEX  game.Players -> PlayerAdded
+INDEX  game.Players.PlayerAdded -> Connect
+CALL   game.Players.PlayerAdded:Connect({__proxy_name="game.Players.PlayerAdded"}, <fn>)
+INDEX  game.Players -> PlayerRemoving
+INDEX  game.Players.PlayerRemoving -> Connect
+CALL   game.Players.PlayerRemoving:Connect({__proxy_name="game.Players.PlayerRemoving"}, <fn>)
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("DumbbellsTog", {Text="Auto Dumbbells", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("BenchPressTog", {Text="Auto Bench Press", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("SquatRackTog", {Text="Auto Squat Rack", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("SitupsTog", {Text="Auto Situps", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab -> AddLeftGroupbox
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox("Stand Spinner")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("ArrowType_Drop", {Callback=<fn>, Text="Arrow Type", Default=1, Values={1="Stand Arrow", 2="Lucky Arrow"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("TargetStand_Drop", {Values={1="White Snake", 2="Golden Experience", 3="Crazy Diamond", 4="Anubis", 5="The World", 6="The World High Voltage", 7="Star Platinum", 8="The Hand", ...}, Text="Target Stands", Multi=true, Callback=<fn>, Default=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("SpinStats_Tog", {Text="Enable Stats Spinning", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Enable stats to check:")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("CheckStrength_Tog", {Text="Check Strength", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("TargetStrength_Drop", {Values={1="D", 2="C", 3="B", 4="A", 5="S", 6="SS"}, Text="Strength Ranks", Multi=true, Callback=<fn>, Default=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("CheckSpeed_Tog", {Text="Check Speed", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("TargetSpeed_Drop", {Values={1="D", 2="C", 3="B", 4="A", 5="S", 6="SS"}, Text="Speed Ranks", Multi=true, Callback=<fn>, Default=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("CheckSpecialty_Tog", {Text="Check Specialty", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("TargetSpecialty_Drop", {Values={1="D", 2="C", 3="B", 4="A", 5="S", 6="SS"}, Text="Specialty Ranks", Multi=true, Callback=<fn>, Default=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("StandSpinnerTog", {Text="Enable Stand Spinner", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="Check Current Stand"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Note: Uses arrow every 7 seconds")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Stops when stand is obtained")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddToggle("MeditateTog", {Text="Auto Meditate[Tp to gym first]", Default=false, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDropdown("AttackPos_Drop", {Callback=<fn>, Text="Attach Position", Default=1, Values={1="Back", 2="Below"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddSlider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddSlider("AttackDist_Slider", {Min=0, Default=5, Max=15, Text="Attack Distance", Callback=<fn>, Rounding=1})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Quest Marker"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Gym"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Raid[Kira] NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Raid[Dio] NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Raid[Jotaro] NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Prestige NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Determination NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Cyborg NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="TP to Saitama NPC"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddButton({Func=<fn>, Text="Prestige Shop"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddButton({Func=<fn>, Text="Raid Shop"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddButton({Func=<fn>, Text="Gang Shop"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddButton({Func=<fn>, Text="Crafting"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+INDEX  game.Players.LocalPlayer -> Name
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Player: StubName")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Money: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Level: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Worthiness: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Raid Tokens: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="Refresh Info"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Name: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Trait: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Speed: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Strength: Loading...")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddRightGroupbox:AddLabel("Specialty: Loading...")
+TASK_WAIT_LIMIT reached, aborting game loop
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> Unloaded
+INDEX  game.RunService -> Stepped
+INDEX  game.RunService.Stepped -> Connect
+CALL   game.RunService.Stepped:Connect({__proxy_name="game.RunService.Stepped"}, <fn>)
+INDEX  game.UserInputService -> JumpRequest
+INDEX  game.UserInputService.JumpRequest -> Connect
+CALL   game.UserInputService.JumpRequest:Connect({__proxy_name="game.UserInputService.JumpRequest"}, <fn>)
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> Options
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> Toggles
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddLabel
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel("Menu bind")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel -> AddKeyPicker
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddLabel:AddKeyPicker("MenuKeybind", {NoUI=true, Default="RightShift", Text="Menu keybind"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDivider
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDivider()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddButton
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddButton({Func=<fn>, Text="Unload GUI"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("AutoMinimizeTog", {Callback=<fn>, Text="Auto Minimize on Load", Default=false, Tooltip="Automatically minimize GUI when script loads"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddToggle
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> KeybindFrame
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.KeybindFrame -> Visible
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddToggle("KeybindMenuOpen", {Text="Open Keybind Menu", Default={__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.KeybindFrame.Visible"}, Callback=<fn>})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox -> AddDropdown
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab:AddLeftGroupbox:AddDropdown("NotificationSide", {Callback=<fn>, Text="Notification Side", Default="Right", Values={1="Left", 2="Right"}})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua -> SetLibrary
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua:SetLibrary({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> SetLibrary
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua:SetLibrary({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> IgnoreThemeSettings
+CALL   Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua.IgnoreThemeSettings({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> SetIgnoreIndexes
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua:SetIgnoreIndexes({1="MenuKeybind"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua -> SetFolder
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua:SetFolder("NamelessHub")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> SetFolder
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua:SetFolder("NamelessBLConfig")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> BuildConfigSection
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua:BuildConfigSection({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua -> ApplyToTab
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua:ApplyToTab({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:CreateWindow:AddTab"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua -> SaveDefault
+CALL   Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua.SaveDefault({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua"}, "Tokyo Night")
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua -> LoadDefault
+CALL   Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua.LoadDefault({__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_ThemeManager_lua"})
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua -> LoadAutoloadConfig
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_addons_SaveManager_lua:LoadAutoloadConfig()
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.Options -> MenuKeybind
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.Options -> MenuKeybind
+SET    Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.ToggleKeybind = {__proxy_name="Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua.Options.MenuKeybind"}
+INDEX  Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua -> Notify
+UI     Fetched_https___raw_githubusercontent_com_deividcomsono_Obsidian_main_Library_lua:Notify("Script loaded! Script Is Made Only By Nezia_Real, Check Clipboard For Discord")
+SCRIPT_OK

@@ -1,0 +1,30 @@
+INDEX  game -> IsLoaded
+CALL   game:IsLoaded()
+INDEX  game -> GetService
+CALL   game:GetService(Players)
+INDEX  game.Players -> LocalPlayer
+INDEX  game.Players.LocalPlayer -> WaitForChild
+CALL   game.Players.LocalPlayer:WaitForChild(PlayerGui)
+INDEX  game.Players.LocalPlayer.PlayerGui -> FindFirstChild
+CALL   game.Players.LocalPlayer.PlayerGui:FindFirstChild(Main Menu)
+CALL   game:GetService(ReplicatedStorage)
+INDEX  game.ReplicatedStorage -> requests
+INDEX  game.ReplicatedStorage.requests -> character
+INDEX  game.ReplicatedStorage.requests.character -> spawn
+INDEX  game.ReplicatedStorage.requests.character.spawn -> FireServer
+CALLALL game.ReplicatedStorage.requests.character.spawn.FireServer(1 args)
+INDEX  game.Players.LocalPlayer.PlayerGui.Main Menu -> Destroy
+CALLALL game.Players.LocalPlayer.PlayerGui.Main Menu.Destroy(1 args)
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/Library.lua)
+LOADSTRING len=103
+EXEC loadstring-chunk
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/addons/ThemeManager.lua)
+LOADSTRING len=115
+EXEC loadstring-chunk
+CALL   game:HttpGet(https://raw.githubusercontent.com/deividcomsono/Obsidian/main/addons/SaveManager.lua)
+LOADSTRING len=114
+EXEC loadstring-chunk
+INDEX  LoadedLib -> CreateWindow
+CALLALL LoadedLib.CreateWindow(2 args)
+XPCALL_ERR ...nloads\OpXOyuApWKTlFzrV\scripts\deobf\ib1_runner.lua:186: attempt to index local 'cd' (a nil value)
+SCRIPT_FAILED ...nloads\OpXOyuApWKTlFzrV\scripts\deobf\ib1_runner.lua:186: attempt to index local 'cd' (a nil value)
