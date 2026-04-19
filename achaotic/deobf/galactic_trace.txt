@@ -1,0 +1,20 @@
+INDEX  game -> Players
+INDEX  game.Players -> LocalPlayer
+INDEX  game -> IsLoaded
+CALL   game:IsLoaded()
+INDEX  game -> GetService
+CALL   game:GetService(RunService)
+INDEX  game.RunService -> IsClient
+CALL   game.RunService:IsClient()
+INDEX  game.RunService -> IsServer
+CALL   game.RunService:IsServer()
+INDEX  game.RunService -> IsStudio
+CALL   game.RunService:IsStudio()
+INDEX  game.RunService -> IsRunning
+CALL   game.RunService:IsRunning()
+INDEX  game.RunService -> IsEdit
+CALL   game.RunService:IsEdit()
+INDEX  game -> PlaceId
+INDEX  game -> GameId
+ERROR  thrown: detected By Galactic
+CALL   debug.traceback(...s\OpXOyuApWKTlFzrV\scripts\deobf\galactic_runner.lua:107: detected By Galactic,2)
